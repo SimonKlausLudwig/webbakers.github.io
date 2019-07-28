@@ -1,0 +1,29 @@
+.quotebody:before{
+    content: '';
+    display: block;
+    width: 21px;
+    height: 18px;
+    margin-bottom: 16px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICA8cGF0aCBkPSJNOS4yMTYgMS4wMDhDNy40ODggNC44IDYuNjI0IDcuNjU2IDYuNjI0IDkuNTc2cy43MiAzLjUwNCAyLjE2IDQuNzUyYy0uNTI4LjkxMi0xLjE0IDEuNjMyLTEuODM2IDIuMTYtLjY5Ni41MjgtMS41NzIuNzkyLTIuNjI4Ljc5Mi0xLjI5NiAwLTIuMzQtLjQ0NC0zLjEzMi0xLjMzMkMuMzk2IDE1LjA2IDAgMTMuOTQ0IDAgMTIuNmMwLTIuMTEyLjgxNi00LjQwNCAyLjQ0OC02Ljg3NkM0LjA4IDMuMjUyIDUuNTY4IDEuMzQ0IDYuOTEyIDBsMi4zMDQgMS4wMDh6bTExLjE2IDBjLTEuNzI4IDMuNzkyLTIuNTkyIDYuNjQ4LTIuNTkyIDguNTY4cy43MiAzLjUwNCAyLjE2IDQuNzUyYy0xLjA1NiAxLjk2OC0yLjU0NCAyLjk1Mi00LjQ2NCAyLjk1Mi0xLjI5NiAwLTIuMzQtLjQ0NC0zLjEzMi0xLjMzMi0uNzkyLS44ODgtMS4xODgtMi4wMDQtMS4xODgtMy4zNDggMC0yLjExMi44MTYtNC40MDQgMi40NDgtNi44NzYgMS42MzItMi40NzIgMy4xMi00LjM4IDQuNDY0LTUuNzI0bDIuMzA0IDEuMDA4eiIgZmlsbD0iIzA4RiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
+    background-repeat: no-repeat;
+}
+
+.author{
+    border-top: 1px solid rgba(161, 161, 161, 0.11);
+    padding: 15px 0 0 0 !important;
+}
+
+.quote p{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #808AB8;
+    font-weight: 400;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.quotebody{
+    padding: 0 0 15px 0px;
+}
+

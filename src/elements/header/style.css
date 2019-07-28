@@ -1,0 +1,36 @@
+.navbar{
+  display: grid;
+  margin: 0 auto;
+  max-width: calc(1128px - 48px);
+  height: 80px;
+  grid-template-columns: 1fr auto auto auto auto;
+  align-items: center;
+  grid-column-gap: 32px;
+}
+
+.navbar img{
+  height: 35px;
+  filter: brightness(0) invert(1);
+}
+
+.navbar .vid_link{
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+
+
+
+@media (max-width: 641px) {
+  .navbar {
+    height: 120px;
+    grid-template-columns: 1fr auto;
+    padding: 0 20px;
+  }
+}

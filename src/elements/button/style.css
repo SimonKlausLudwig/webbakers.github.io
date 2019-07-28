@@ -1,0 +1,21 @@
+.vidbutton{
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  padding: 12px 43px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0);
+  border-radius: 2px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  transition: background .15s ease;
+  color: #E5ECF4;
+  background-color: #0062FF;
+  box-shadow: 0 8px 20px rgba(17,19,37,0.32);
+}

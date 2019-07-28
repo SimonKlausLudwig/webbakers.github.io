@@ -1,0 +1,14 @@
+.as_seperator {
+    border-bottom: 1px solid rgba(161, 161, 161, 0.11);
+    width: 80%;
+    padding-top: 88px;
+    margin: 0 auto 88px;
+}
+
+
+@media (max-width: 641px) {
+    .as_seperator {
+        padding-top: 48px;
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,30 @@
+.blog-post-content p{
+    font-weight: 400;
+    color: #808AB8;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+}
+
+.blog-post-content h2{
+    font-weight: 600;
+    clear: both;
+    color: #E5ECF4;
+
+}
+
+.blog-post-content:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: 325px;
+    background-image: url(https://preview.cruip.com/storm/dist/images/illustration-section-04.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    left: 50%;
+    top: 800px;
+    z-index: -1;
+    transform: translate(-50%);
+}

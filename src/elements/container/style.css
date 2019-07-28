@@ -1,0 +1,13 @@
+.vid_container{
+  width: 100%;
+}
+
+.containerinner{
+  max-width: 1128px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

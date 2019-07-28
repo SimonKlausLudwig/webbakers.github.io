@@ -1,0 +1,14 @@
+.vidblock{
+    background: #1A1F34;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    flex-grow: 1;
+    font-weight: 700;
+    clear: both;
+    color: #E5ECF4;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}

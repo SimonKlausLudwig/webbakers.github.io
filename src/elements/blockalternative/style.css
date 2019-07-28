@@ -1,0 +1,21 @@
+.block {
+    position: relative;
+    flex-grow: 1;
+    color: #808AB8;
+    background: #1A1F34;
+    display: grid;
+    grid-auto-rows: auto auto auto 1fr;
+}
+
+@media (min-width: 1025px) {
+    .block:nth-child(even) {
+        top: 80px;
+    }
+}
+
+.blogwrapper {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

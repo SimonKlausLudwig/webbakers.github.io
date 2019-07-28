@@ -1,0 +1,25 @@
+.person p, .person a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #808AB8 !important;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+}
+
+.person img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.person .name{
+    margin-bottom: 10px;
+}
+
+.person  .footer {
+    border-top: 1px solid #9c9fb229;
+    padding-top: 24px;
+    margin-top: 24px;
+}

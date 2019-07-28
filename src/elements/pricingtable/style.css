@@ -1,0 +1,44 @@
+
+
+.pricheader{
+    position: relative;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.pricheader::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 1px;
+    background: #a0a7bf;
+    max-width: 88px;
+}
+
+.subtitle{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #808AB8;
+    font-weight: 400;
+}
+
+.pricingtable li{
+    border-bottom: 1px solid rgba(50, 53, 66, 0.47);
+    padding-bottom: 12px;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.pricingtable li::before{
+    content: '';
+    width: 16px;
+    height: 12px;
+    margin-right: 12px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICA8cGF0aCBkPSJNNS42IDYuNEwxLjYgNCAwIDUuNiA1LjYgMTIgMTYgMS42IDE0LjQgMHoiIGZpbGw9IiMwMEM3RkEiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==);
+    background-repeat: no-repeat;
+}

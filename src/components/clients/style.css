@@ -1,0 +1,27 @@
+
+.vid_clients{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    max-width: 600px;
+    margin:  100px 0 180px 0;
+    padding: 25px 100px;
+    border-bottom: 1px solid #808ab81f;
+    border-top: 1px solid #808ab81f;
+}
+
+.vid_clients img {
+    filter: brightness(0) invert(1);
+}
+
+
+
+@media (max-width: 641px) {
+
+    .vid_clients {
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        margin: 40px 0;
+    }
+
+}
