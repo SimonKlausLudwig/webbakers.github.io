@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://videobakers.de/sitemap.xml
+Host: https://videobakers.de
