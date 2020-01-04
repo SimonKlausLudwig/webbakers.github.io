@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{IDOG:function(n,e,t){"use strict";t.r(e);var u=t("q1tI"),r=t.n(u),a=t("6bqP"),l=(t("BOPv"),t("1Ht2"),t("tU/J"),t("BuxL"),t("yPlT"));e.default=function(n){return function(n){if(null==n)throw new TypeError("Cannot destructure undefined")}(n),r.a.createElement(a.a,null,r.a.createElement(l.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-kontakt-js-bcbe2ec9f51e0a5a6ce9.js.map
